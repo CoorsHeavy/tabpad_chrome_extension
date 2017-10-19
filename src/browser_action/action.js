@@ -15,8 +15,8 @@ function saveFunction() {
         console.log(arr);
         $.ajax({
             
-            url: 'http://www.tabpad.me/util/create',    //Your api url
-            type: 'PUT',   //type is any HTTP method
+            url: 'http://tabpad.me/util/create',    //Your api url
+            type: 'GET',   //type is any HTTP method
             data: {
                 name: name,
                 tabs: JSON.stringify(arr)
